@@ -1,5 +1,7 @@
 # Java
 Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. It is a widely used language in the world of software development. Here are some key features and aspects of Java:
+> [!NOTE]
+> WORA : Write once run any where.
 
 ## Key Features
 Platform Independence: Java programs are compiled into bytecode, which can run on any device equipped with a Java Virtual Machine (JVM). This means that Java programs can be written once and run anywhere (WORA).
