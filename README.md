@@ -75,6 +75,7 @@ Example: boolean b = true;
 ```
 
 **Reference Data Types**
+
 Reference data types are constructed types that refer to objects. These include classes, interfaces, arrays, and enums. They store references to the memory locations where the actual data is held.
 
 ***class***
