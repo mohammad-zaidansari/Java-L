@@ -18,6 +18,7 @@ Java is a high-level, class-based, object-oriented programming language designed
 In Java, data types are classified into two main categories: primitive data types and reference (or non-primitive) data types.
 
 **Primitive Data Types**
+
 Java has eight primitive data types, which are predefined by the language and named by a reserved keyword.
 
 ***byte***
