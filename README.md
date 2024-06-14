@@ -21,9 +21,11 @@ In Java, data types are classified into two main categories: primitive data type
 Java has eight primitive data types, which are predefined by the language and named by a reserved keyword.
 
 ***byte***
+```
 Size: 1 byte (8 bits)
 Range: -128 to 127
 Example: byte b = 100;
+```
 
 ***short***
 Size: 2 bytes (16 bits)
