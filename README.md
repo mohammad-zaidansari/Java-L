@@ -60,7 +60,7 @@ Size: 8 bytes (64 bits)
 Range: approximately ±1.79769313486231570E+308 (15 significant decimal digits)
 Example: double d = 123.4;
 ```
-**char**
+***char***
 ```
 Size: 2 bytes (16 bits)
 Range: 0 to 65,535 (unsigned)
@@ -77,13 +77,16 @@ Example: boolean b = true;
 Reference data types are constructed types that refer to objects. These include classes, interfaces, arrays, and enums. They store references to the memory locations where the actual data is held.
 
 ***class***
+```
 class MyClass {
     int num;
     String name;
 }
 MyClass obj = new MyClass();
+```
 
 ***interface***
+```
 interface MyInterface {
     void display();
 }
@@ -92,16 +95,19 @@ class MyClass implements MyInterface {
         System.out.println("Hello");
     }
 }
-
+```
 ***Arrays***
+```
 Example: int[] arr = new int[10];
+```
 
 ***Enum***
+```
 enum Day {
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
 }
 Day day = Day.MONDAY;
-
+```
 
 
 ## Key Features
