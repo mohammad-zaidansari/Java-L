@@ -28,39 +28,50 @@ Example: byte b = 100;
 ```
 
 ***short***
+```
 Size: 2 bytes (16 bits)
 Range: -32,768 to 32,767
 Example: short s = 10000;
+```
 
 ***int***
+```
 Size: 4 bytes (32 bits)
 Range: -2^31 to 2^31 - 1
 Example: int i = 100000;
+```
 
 ***long***
+```
 Size: 8 bytes (64 bits)
 Range: -2^63 to 2^63 - 1
 Example: long l = 100000L;
-
+```
 ***float***
+```
 Size: 4 bytes (32 bits)
 Range: approximately ±3.40282347E+38F (6-7 significant decimal digits)
 Example: float f = 234.5f;
+```
 
 ***double***
+```
 Size: 8 bytes (64 bits)
 Range: approximately ±1.79769313486231570E+308 (15 significant decimal digits)
 Example: double d = 123.4;
-
+```
 **char**
+```
 Size: 2 bytes (16 bits)
 Range: 0 to 65,535 (unsigned)
 Example: char c = 'A';
-
+```
 ***boolean***
+```
 Size: JVM dependent (commonly 1 bit or 1 byte)
 Values: true or false
 Example: boolean b = true;
+```
 
 **Reference Data Types**
 Reference data types are constructed types that refer to objects. These include classes, interfaces, arrays, and enums. They store references to the memory locations where the actual data is held.
