@@ -111,6 +111,95 @@ enum Day {
 Day day = Day.MONDAY;
 ```
 
+# Type of Literals
+
+***Integer Literals***
+```
+Decimal: Base 10 (0-9)
+Example: int a = 100;
+Hexadecimal: Base 16 (0-9, A-F)
+Example: int b = 0x64; (equivalent to 100 in decimal)
+Octal: Base 8 (0-7)
+Example: int c = 0144; (equivalent to 100 in decimal)
+Binary: Base 2 (0-1)
+Example: int d = 0b1100100; (equivalent to 100 in decimal)
+```
+
+***Floating-Point Literals***
+```
+Float (suffix f or F is used)
+Example: float pi = 3.14f;
+Double (default type for floating-point numbers)
+Example: double e = 2.71828;
+```
+
+***Character Literals***
+```
+Single characters enclosed in single quotes
+Example: char letter = 'A';
+Unicode representation
+Example: char unicodeChar = '\u0041'; (equivalent to 'A')
+```
+
+***String Literals***
+```
+Sequence of characters enclosed in double quotes
+Example: String greeting = "Hello, World!";
+```
+
+***Boolean Literals***
+```
+Two possible values: true and false
+Example: boolean isJavaFun = true;
+```
+
+***Null Literal***
+```
+Represents a null reference (not pointing to any object)
+Example: String str = null;
+```
+# Examples and Usage
+```
+public class LiteralsExample {
+    public static void main(String[] args) {
+        // Integer Literals
+        int decimal = 100;
+        int hex = 0x64;
+        int octal = 0144;
+        int binary = 0b1100100;
+        
+        // Floating-Point Literals
+        float floatNumber = 3.14f;
+        double doubleNumber = 2.71828;
+        
+        // Character Literals
+        char letter = 'A';
+        char unicodeChar = '\u0041';
+        
+        // String Literal
+        String greeting = "Hello, World!";
+        
+        // Boolean Literal
+        boolean isJavaFun = true;
+        
+        // Null Literal
+        String str = null;
+        
+        // Printing literals
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Hexadecimal: " + hex);
+        System.out.println("Octal: " + octal);
+        System.out.println("Binary: " + binary);
+        System.out.println("Float: " + floatNumber);
+        System.out.println("Double: " + doubleNumber);
+        System.out.println("Char: " + letter);
+        System.out.println("Unicode Char: " + unicodeChar);
+        System.out.println("String: " + greeting);
+        System.out.println("Boolean: " + isJavaFun);
+        System.out.println("Null: " + str);
+    }
+}
+```
 
 ## Key Features
 Platform Independence: Java programs are compiled into bytecode, which can run on any device equipped with a Java Virtual Machine (JVM). This means that Java programs can be written once and run anywhere (WORA).
