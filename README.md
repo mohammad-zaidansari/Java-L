@@ -110,8 +110,11 @@ enum Day {
 }
 Day day = Day.MONDAY;
 ```
+# What is Literals in Java 
 
-# Type of Literals
+In Java, literals are fixed values that are directly represented in the code. They are the simplest form of expressions and are used to assign values to variables. Java supports several types of literals, each corresponding to a specific data type. Here are the main categories of literals in Java:
+
+## Type of Literals
 
 ***Integer Literals***
 ```
