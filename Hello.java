@@ -54,11 +54,18 @@ class Hello {
         //Lecture 8 
         //Conversion in Java & Casting 
 
-        float num1 = 3.5f;
-        int num2 = 345;
+        // float num1 = 3.5f;
+        // int num2 = 345;
+        // num2 = (int) num1;  //Casting 
+        // System.out.println(num2);
 
-        num2 = (int) num1;
-        System.out.println(num2);
+        int num = 7;
+        // num++; // post increment 
+        // ++num; // pre increment 
+        // num --; // decrement 
+        // int result = ++num;  // first increment and then fetch the value
+        int result = num++;  // fetch the value and then increment 
+        System.out.println(num);
 
     }
 }
