@@ -59,13 +59,13 @@ class Hello {
         // num2 = (int) num1;  //Casting 
         // System.out.println(num2);
 
-        int num = 7;
+        // int num = 7;
         // num++; // post increment 
         // ++num; // pre increment 
         // num --; // decrement 
         // int result = ++num;  // first increment and then fetch the value
-        int result = num++;  // fetch the value and then increment 
-        System.out.println(num);
+        // int result = num++;  // fetch the value and then increment 
+        // System.out.println(result);
 
     }
 }
